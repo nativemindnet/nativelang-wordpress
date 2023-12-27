@@ -5,4 +5,3 @@ cybo_add_extra_domain( 'mydomain.com', '/',  1 );
 
 cybo_add_extra_domain( 'en.mydomain.com', '/', 1 );
 cybo_add_extra_domain( 'ru.mydomain.com', '/', 1 );
-}
