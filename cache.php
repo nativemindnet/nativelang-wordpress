@@ -1,3 +1,4 @@
+<?php
 function get_cache_folder_path() {
     // Check if object cache is enabled
     if (function_exists('wp_cache_get')) {
