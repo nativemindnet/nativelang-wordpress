@@ -17,7 +17,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 //include_once __DIR__ . 'include/translations.php';
 
 require "i18n.php";
+require "cache.php";
+
 require "translateTextGoogle.php";
+
 
 class NativeMind {
     public function __construct() {
@@ -98,8 +101,13 @@ function get_emoji($title) {
         $current_language = pll_current_language();
         $default_language = pll_default_language();
     
-        $original_path = "/var/tmp/original/{$post_id}.{$default_language}";
-        $translated_path = "/var/tmp/translated/{$post_id}.{$current_language}";
+        $cache_folder_path = get_cache_folder_path();
+
+        $blog_id = get_current_blog_id();
+        $network_id = get_current_network_id();
+
+        $original_path = $cache_folder_path."original_{$blog_id}_{$network_id}_{$post_id}.{$default_language}";
+        $translated_path = $cache_folder_path."translated_{$blog_id}_{$network_id}_{$post_id}.{$current_language}";
     
     
         // Если пост существует, сохраняем его в оригинальной папке
