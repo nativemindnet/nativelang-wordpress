@@ -1,10 +1,10 @@
-# 🌐 nativemind_wordpress
+# 🌐 nativelang_wordpress
 
-Welcome to `nativemind_wordpress`! This plugin enhances your WordPress site with advanced translation capabilities. 🚀
+Welcome to `nativelang_wordpress`! This plugin enhances your WordPress site with advanced translation capabilities. 🚀
 
 ## Prerequisites
 
-Before proceeding with the installation of nativemind_wordpress`, make sure you have:
+Before proceeding with the installation of nativelang_wordpress`, make sure you have:
 
 1. **Install Polylang** 🛠️
 
@@ -14,7 +14,7 @@ Before proceeding with the installation of nativemind_wordpress`, make sure you 
 
 1. **Download the Plugin** 📦
    
-   Download `nativemind_wordpress` to your local machine.
+   Download `nativelang_wordpress` to your local machine.
 
 2. **Upload to WordPress** 📤
 
@@ -28,7 +28,7 @@ Before proceeding with the installation of nativemind_wordpress`, make sure you 
 
 1. **Activate the Plugin** ✅
 
-   Log in to your WordPress dashboard, navigate to the 'Plugins' section, and activate `nativemind_wordpress`.
+   Log in to your WordPress dashboard, navigate to the 'Plugins' section, and activate `nativelang_wordpress`.
 
 Your site is now ready to embrace multilingual content! 🌍
 
