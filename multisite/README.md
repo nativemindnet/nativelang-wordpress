@@ -22,7 +22,14 @@ Before proceeding with the installation of nativemind_wordpress`, make sure you 
 
 3. **Subdomain Setup (Optional, for Wordpress Multisites)** 🌐
 
-   If using Multisets with subdomains please read [multisite/README.md](multisite/README.md)
+   If using subdomains:
+   - Rename `my_domains.php.example` to `my_domains.php`.
+   - Edit `my_domains.php` to include your actual domain names.
+   - Set `define('SUNRISE', 'true');` in your `wp-config.php` file to enable domain mapping.
+
+4. **Move Essential Files** 📁
+
+   Transfer `sunrise.php` and `my_domains.php` (if using subdomains) to the `/wp-content/` directory.
 
 ## 🔌 Activation
 
